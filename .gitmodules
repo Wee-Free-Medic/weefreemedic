@@ -1,0 +1,6 @@
+[submodule "themes/weefree"]
+	path = themes/weefree
+	url = git@github.com:MikeDacre/weefree.git
+[submodule "public"]
+	path = public
+	url = gity@gity:/srv/git/weefreemedic.git
