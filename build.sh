@@ -2,6 +2,11 @@
 
 US=$(pwd)
 
+echo "Removing old site"
+cd public
+rm -rf *
+cd ..
+
 echo "Installing site"
 echo ""
 hugo
