@@ -2,6 +2,16 @@ baseURL = 'https://www.weefreemedic.org/'
 languageCode = 'en-us'
 title = 'Wee Free Medic'
 theme = "weefree"
+[params]
+  phpConfig = "/srv/data/weefree/weefreemail.ini"
+[mediaTypes]
+  [mediaTypes."application/x-php"]
+  suffixes = ["php"]
+[outputFormats]
+  [outputFormats.PHP]
+    mediaType = "application/x-php"
+    isPlainText = true
+    baseName = "index"
 [markup]
   [markup.goldmark.renderer]
     unsafe= true
