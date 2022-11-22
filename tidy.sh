@@ -25,4 +25,8 @@ tidy -config $CONF $FILE 2>&1 \
   | perl -p -e 's/.*Warning: unescaped & or unknown entity ".*\n//' \
   | perl -p -e 's/.*adjacent hyphens within comment.*\n//'
 err=$?
+
+echo "Deleting excess newlines" >&2
+cat $FILE | sed -s ':a;N;$!ba;s/\n\n\n/\n\n/g' | sed -s ':a;N;$!ba;s/\n\n\n/\n\n/g' | sed -s ':a;N;$!ba;s/\n\n\n/\n\n/g' | sed -s ':a;N;$!ba;s/\n\n\n/\n\n/g' > t
+mv t $FILE
 exit $err

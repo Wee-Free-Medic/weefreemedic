@@ -21,18 +21,22 @@ fi
 sleep 0.2
 
 cd public
+mv plugins ../t
 
-# echo "Cleaning HTML"
-# echo ""
-# pwd
-# find . -type f -name "*.html" -exec ${US}/tidy.sh ${US}/tidy.conf {} \;
-# if [ $? -eq 0 ]
-# then
-  # echo "HTML Tidy complete"
-  # echo ""
-# else
-  # echo "Failed to tidy HTML!!!" >&2
-# fi
+echo "Cleaning HTML"
+echo ""
+pwd
+find . -type f -name "*.html" -exec ${US}/tidy.sh ${US}/tidy.conf {} \;
+find . -type f -name "*.php" -exec ${US}/tidy.sh ${US}/tidy.conf {} \;
+if [ $? -eq 0 ]
+then
+  echo "HTML Tidy complete"
+  echo ""
+else
+  echo "Failed to tidy HTML!!!" >&2
+fi
+
+mv ../t plugins
 
 echo "Gzipping sitemaps"
 gzip -k sitemap.xml
@@ -40,6 +44,7 @@ gzip -k sitemap.xml
 
 echo "Removing trailing whitespace"
 find . -type f -name "*.html" -exec perl -pi -e 's/ +$//g' {} \;
+find . -type f -name "*.php" -exec perl -pi -e 's/ +$//g' {} \;
 
 cd $US
 
