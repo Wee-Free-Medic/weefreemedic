@@ -4,6 +4,8 @@ title = 'Wee Free Medic'
 theme = "weefree"
 [params]
   phpConfig = "/srv/data/weefree/weefreemail.ini"
+  author = 'Mike Dacre'
+  description = "Wee Free Medic provides CPR, First Aid, and Wilderness Medical Training as well as Street Medical and Volunteer EMT services."
 [mediaTypes]
   [mediaTypes."application/x-php"]
   suffixes = ["php"]
