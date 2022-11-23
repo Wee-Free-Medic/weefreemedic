@@ -4,6 +4,7 @@ description: "Privacy policy"
 draft: false
 headerImage: sf-banner.jpg
 slug: privacy-policy
+contactInfo: true
 ---
 
 # Simple Policy
@@ -33,7 +34,7 @@ Last updated 08/01/2022
 
 
 This privacy notice for Michael Dacre/Wee Free Medic ("Company," "we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:
-Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at info@weefreemedic.org or via [the contact form](/contact).
+Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at {{<email "info">}} or via [the contact form](/contact).
 
 
 SUMMARY OF KEY POINTS
@@ -181,13 +182,9 @@ We may update this privacy notice from time to time. The updated version will be
 
 13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
 
-If you have questions or comments about this notice, you may email us at info@weefreemedic.org or by post to:
+If you have questions or comments about this notice, you may email us at {{<email "info">}} or by post to:
 
-Wee Free Medic
-PO Box 18771
-Palo Alto
-CA 94309
-USA
+Wee Free Medic, PO Box 18771, Palo Alto, CA 94309, USA
 
 14. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
 

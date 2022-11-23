@@ -1,0 +1,2 @@
+{{ $start := "info" }}{{ with .Get 0 }}{{ $start = . }}{{ end }}{{ $start = printf "'%s'" $start}}
+<span name="show-email" onclick=showEmail({{$start|safeJS}})><span class='obfs-link'>Show Email Address</span> (javascript required)</span><span name="email-address"></span>

@@ -24,7 +24,7 @@ outputs: PHP
 									<h4 class="h5 compressed-heading">Call or Text</h4>
 									<div class="content">
 										<div id="phone">
-											<div id="show-phone" onclick=showPhone()><a href="#">Show Phone Number</a> (javascript required)</div>
+											<div id="show-phone" onclick=showPhone()><span class="obfs-link">Show Phone Number</span> (javascript required)</div>
 											<div id="phone-number"></div>
 										</div>
 										<br>Signal/WhatsApp Preferred<br>
@@ -36,8 +36,7 @@ outputs: PHP
 									<h4 class="h5 compressed heading">Email (<a href="https://proton.me">Proton Mail</a>)</h4>
 									<div class="content">
 										<div id="email">
-											<div id="show-email" onclick=showEmail()><a href="#">Show Email Address</a> (javascript required)</div>
-											<div id="email-address"></div>
+											{{<email "mike">}}
 										</div>
 									</div>
 								</div>
