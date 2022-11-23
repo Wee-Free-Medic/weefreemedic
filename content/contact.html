@@ -24,8 +24,7 @@ outputs: PHP
 									<h4 class="h5 compressed-heading">Call or Text</h4>
 									<div class="content">
 										<div id="phone">
-											<div id="show-phone" onclick=showPhone()><span class="obfs-link">Show Phone Number</span> (javascript required)</div>
-											<div id="phone-number"></div>
+											{{<phone>}}
 										</div>
 										<br>Signal/WhatsApp Preferred<br>
 										<br>Monday - Sunday
@@ -33,7 +32,7 @@ outputs: PHP
 										<br>(intermittently available)
 									</div>
 									<br>
-									<h4 class="h5 compressed heading">Email (<a href="https://proton.me">Proton Mail</a>)</h4>
+									<h4 class="h5 compressed heading">Email (<a class="text-black" href="https://proton.me">Proton Mail</a>)</h4>
 									<div class="content">
 										<div id="email">
 											{{<email "mike">}}
