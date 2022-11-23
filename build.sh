@@ -38,6 +38,14 @@ fi
 
 mv ../t plugins
 
+echo "Compress javascript"
+cd js
+for i in *.js; do
+    j=$(echo $i | sed 's/\..*//')
+    cat ${i} | jsmin > ${j}.min.js
+done
+cd ..
+
 echo "Gzipping sitemaps"
 gzip -k sitemap.xml
 # gzip -k feed.xml

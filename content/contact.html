@@ -3,6 +3,7 @@ Title: Contact Me
 Description: Contact Page
 headerImage: sf-banner.jpg
 contactForm: true
+contactInfo: true
 outputs: PHP
 ---
 <section class="section">
@@ -22,16 +23,22 @@ outputs: PHP
 								<div class="block mt-0">
 									<h4 class="h5 compressed-heading">Call or Text</h4>
 									<div class="content">
-										<br> <a href="tel:+16502390692">+16502390692</a>
+										<div id="phone">
+											<div id="show-phone" onclick=showPhone()><a href="#">Show Phone Number</a> (javascript required)</div>
+											<div id="phone-number"></div>
+										</div>
 										<br>Signal/WhatsApp Preferred<br>
 										<br>Monday - Sunday
-										<br>9AM TO 8PM US Pacific Time
+										<br>7AM TO 8PM US Pacific Time
 										<br>(intermittently available)
 									</div>
 									<br>
-									<h4 class="h5 compressed heading">Email (Proton Mail)</h4>
+									<h4 class="h5 compressed heading">Email (<a href="https://proton.me">Proton Mail</a>)</h4>
 									<div class="content">
-										<br> <a href="mailto:mike@weefreemedic.org">mike@weefreemedic.org</a>
+										<div id="email">
+											<div id="show-email" onclick=showEmail()><a href="#">Show Email Address</a> (javascript required)</div>
+											<div id="email-address"></div>
+										</div>
 									</div>
 								</div>
 							</div>
