@@ -13,29 +13,54 @@ outputs: PHP
 				<div class="shadow rounded p-5 bg-white">
 					<div class="row">
 						<div class="col-12 mb-4">
-							<h3>Send Me a Message (Encrypted, Secure, HIPAA-compliant)</h3>
+							<h3>Send Me a Message</h3>
 						</div>
 						<div class="col-lg-6">
+							<br>
+							<h4 class="h5 compressed-heading">Contact Form (Encrypted, Secure, HIPAA-compliant)</h4>
 							{{<contactForm>}}
 						</div>
 						<div class="col-lg-6 mt-5 mt-lg-0">
 							<div class="contact-info">
 								<div class="block mt-0">
+									<h4 class="h5 compressed heading">Email (<a class="text-black" href="https://proton.me">Proton Mail</a>)</h4>
+									<div class="content">
+										<div id="email">
+											{{<email "mike">}}
+										</div>
+									</div>
+									<br>
 									<h4 class="h5 compressed-heading">Call or Text</h4>
 									<div class="content">
 										<div id="phone">
 											{{<phone>}}
 										</div>
 										<br>Signal/WhatsApp Preferred<br>
-										<br>Monday - Sunday
-										<br>7AM TO 8PM US Pacific Time
-										<br>(intermittently available)
 									</div>
 									<br>
-									<h4 class="h5 compressed heading">Email (<a class="text-black" href="https://proton.me">Proton Mail</a>)</h4>
+									<h4 class="h5 compressed heading">Chat App Links</h4>
 									<div class="content">
-										<div id="email">
-											{{<email "mike">}}
+										<div id="qr-codes">
+											<div class="row">
+												<div class="col-lg-6">
+													<h5 class="h6 flat-heading text-center">Signal</h5>
+													<div id="signal"><a href="https://www.wfmed.org/signal"><img src="/images/qrs/signal.qr.webp" alt="QR code for Signal"></a></div>
+												</div>
+												<div class="col-lg-6">
+													<h5 class="h6 flat-heading text-center">Telegram</h5>
+													<div id="telegram"><a href="https://www.wfmed.org/telegram"><img src="/images/qrs/telegram.qr.webp" alt="QR code for Telegram"></a></div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-lg-6">
+													<h5 class="h6 flat-heading text-center">WhatsApp</h5>
+													<div id="whatsapp"><a href="https://www.wfmed.org/whatsapp"><img src="/images/qrs/whatsapp.qr.webp" alt="QR code for WhatsApp"></a></div>
+												</div>
+												<div class="col-lg-6">
+													<h5 class="h6 flat-heading text-center">Threema</h5>
+													<div id="threema"><a href="https://www.wfmed.org/threema"><img src="/images/qrs/threema.qr.webp" alt="QR code for Threema"></a></div>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -46,14 +71,17 @@ outputs: PHP
 					<div class="row">
 						<div class="col-12 mb-4">
 							<h3>Make An Appointment</h3>
-                            <p>Request an appointment to chat with me. Syncs securely with my calendars without using third party software.</p>
+              <p>
+								Request an appointment to chat with me. Syncs securely with my calendars without using third party software.
+								If does not open below, go directly to the booking page here: <a href="https://mdd.li/appointment" target="_blank">https://mdd.li/appointment</a>.
+							</p>
 						</div>
-                        <div class="content">
-                            <iframe class="center" src="https://c.mdd.li/index.php/apps/appointments/embed/Uhax7fprYisBSRv55L4%3D/form" width="75%" height="750px" style="background-color: white !important; color: black !important;">
-                                <p>Appointments will load here, if they do not load, please visit <a href="https://c.mdd.li/index.php/apps/appointments/pub/Uhax7fprYisBSRv55L4%3D/form" target="_blank">the appointments page</a>.
-                            </iframe>
-                        </div>
-                    </div>
+            <div class="content">
+                <iframe class="center" src="https://c.mdd.li/index.php/apps/appointments/embed/Uhax7fprYisBSRv55L4%3D/form" width="75%" height="750px" style="background-color: white !important; color: black !important;">
+                    <p>Appointments will load here, if they do not load, please visit <a href="https://c.mdd.li/index.php/apps/appointments/pub/Uhax7fprYisBSRv55L4%3D/form" target="_blank">the appointments page</a>.
+                </iframe>
+            </div>
+          </div>
 				</div>
 			</div>
 		</div>
