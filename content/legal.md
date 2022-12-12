@@ -3,6 +3,9 @@ title: "Legal"
 description: "Legal terms related to the site and company"
 draft: false
 headerImage: sf-banner.jpg
+categories:
+- "pages"
+- "info"
 ---
 
 # DISCLAIMER

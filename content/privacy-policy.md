@@ -5,6 +5,9 @@ draft: false
 headerImage: sf-banner.jpg
 slug: privacy-policy
 contactInfo: true
+categories:
+- "pages"
+- "info"
 ---
 
 # Simple Policy
