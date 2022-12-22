@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/weefreemedic
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.weefreemedic.org
+  * I am weefreemedic (https://keybase.io/weefreemedic) on keybase.
+  * I have a public key ASCeROs8_w65HlWboA8pmRJ69y84nA5DwGPiV4R3Kc7kego
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209e44eb3cff0eb91e559ba00f2999127af72f389c0e43c063e257847729cee47a0a",
+      "host": "keybase.io",
+      "kid": "01209e44eb3cff0eb91e559ba00f2999127af72f389c0e43c063e257847729cee47a0a",
+      "uid": "497f7e003703c08f1cada948f2a06e19",
+      "username": "weefreemedic"
+    },
+    "merkle_root": {
+      "ctime": 1671672868,
+      "hash": "c29e4a2744821cb262ed6f369e8b0803fd5ad588aa25a71b56716152cc13c7aa13881c3dbec7b1e2a4f8bb789356f9021366bc9596325a3ff37a7ab10f952c3d",
+      "hash_meta": "ed9e9356458d1ebfc78ac510227f6e2939d9dd80adbe06f57bd5bb02c7592914",
+      "seqno": 23751612
+    },
+    "service": {
+      "entropy": "4bWoz4RCBWC8a02Cu3nIwMsD",
+      "hostname": "www.weefreemedic.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1671672892,
+  "expire_in": 504576000,
+  "prev": "288aa6304da5968b0535f42b1383ed15a3446a0ff302d1baaed4662d8a73e935",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnkTrPP8OuR5Vm6APKZkSevcvOJwOQ8Bj4leEdynO5HoKp3BheWxvYWTESpcCBMQgKIqmME2llosFNfQrE4PtFaNEag/zAtG6rtRmLYpz6TXEIJOD+oQV4lJrn/+rD4xU2YRIXVOh8fTFZtyJQwfd/5MPAgHCo3NpZ8RAgULg1qJv9n0rbXvGGUvNPTBG5K/fKDHLlK57tiaUXt0KeBQpl/kfSzSr5G8djd2dxspt25idnVBjLKMi0c31A6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJMWpjhDP2SO93ZZGNw9G8j38uPWLEH9ywbte0yv8Ykao3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/weefreemedic
+
+==================================================================
