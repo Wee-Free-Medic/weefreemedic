@@ -36,7 +36,7 @@ one of my hosts, does set some cookies, which are not necessary for the site to 
 Last updated 08/01/2022
 
 
-This privacy notice for Michael Dacre/Wee Free Medic ("Company," "we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:
+This privacy notice for Michael Dacre/Wee Free Medicine ("Company," "we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:
 Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at {{<email "info">}} or via [the contact form](/contact).
 
 
@@ -187,7 +187,7 @@ We may update this privacy notice from time to time. The updated version will be
 
 If you have questions or comments about this notice, you may email us at {{<email "info">}} or by post to:
 
-Wee Free Medic, PO Box 18771, Palo Alto, CA 94309, USA
+Wee Free Med, PO Box 18771, Palo Alto, CA 94309, USA
 
 14. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
 

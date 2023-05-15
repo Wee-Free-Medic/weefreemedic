@@ -21,6 +21,6 @@ function showEmail(start) {
   var emls  = document.getElementsByName("email-address");
   for(var i = 0; i < shows.length; i++) {
     shows[i].style.display="none";
-    emls[i].innerHTML = `<a href='mailto:${start}${a}${e2}medic.${e1}'>${start}${a}${e2}medic.${e1}</a>`;
+    emls[i].innerHTML = `<a href='mailto:${start}${a}${e2}med.${e1}'>${start}${a}${e2}med.${e1}</a>`;
   }
 }

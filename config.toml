@@ -1,11 +1,12 @@
-baseURL = 'https://www.weefreemedic.org/'
+baseURL = 'https://www.weefreemedicine.org/'
 languageCode = 'en-us'
-title = 'Wee Free Medic'
+title = 'Wee Free Medicine'
+subtitle = 'Whole-Person Medicine, Advanced Skincare, and Medical Teaching for All'
 theme = "weefree"
 [params]
   phpConfig = "/srv/data/weefree/weefreemail.ini"
   author = 'Mike Dacre'
-  description = "Wee Free Medic provides CPR, First Aid, and Wilderness Medical Training as well as Street Medical and Volunteer EMT services."
+  description = "Whole-Person Medicine, Advanced Skincare,  and Medical Teaching for All."
 [mediaTypes]
   [mediaTypes."application/x-php"]
   suffixes = ["php"]
@@ -16,7 +17,7 @@ theme = "weefree"
     baseName = "index"
 [markup]
   [markup.goldmark.renderer]
-    unsafe= true
+    unsafe = true
 [sitemap]
   changefreq = 'monthly'
   filename = 'sitemap.xml'
